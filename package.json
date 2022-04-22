@@ -11,7 +11,9 @@
     "test:ci": "npm test -- --coverage"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,8 @@
     "jest": "^27.5.1",
     "lint-staged": "^9.4.3",
     "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
   }
 }
